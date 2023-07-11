@@ -165,3 +165,48 @@ header {
     line-height: 25px;
     margin-top: 5px;
 }
+
+/* Sign Up Section */
+
+.sign-up-container {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 40px 0px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-up-text{
+    text-align: center;
+}
+
+.sign-up-text h3 {
+    color: #272727;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sign-up-text .discount {
+    color: #E55473
+}
+
+.sign-up-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+.sign-up-image {
+    width: 250px;
+}
+
+.sign-up-image img{
+    width: 100%;
+}
