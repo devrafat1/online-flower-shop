@@ -25,7 +25,7 @@ body {
     padding: 12px 19px;
 }
 
-/* Header Area */
+/* Header Section */
 
 header {
     background: rgba(229, 84, 115, 0.10);
@@ -133,7 +133,7 @@ header {
 .what-we-offer-container {
     background: rgba(39, 39, 39, 0.05);
     padding: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     border-radius: 5px;
 }
 
@@ -171,7 +171,7 @@ header {
 .sign-up-container {
     background: rgba(229, 84, 115, 0.05);
     padding: 40px 0px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     border-radius: 5px;
 }
 
@@ -277,12 +277,12 @@ header {
     margin: 10px 0px 30px;
 }
 
-.subscribe-container{
+.subscribe-container {
     margin: 20px 0px;
     text-align: center;
 }
 
-.subscribe-container input{
+.subscribe-container input {
     width: 50%;
     padding: 15px 13px;
     border: none;
@@ -298,7 +298,7 @@ header {
     padding: 20px 0px;
 }
 
-.flower-order-area{
+.flower-order-area {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -308,7 +308,7 @@ header {
     width: 500px;
 }
 
-.flower-order-image img{
+.flower-order-image img {
     width: 100%;
 }
 
@@ -323,4 +323,38 @@ header {
     font-weight: 400;
     margin-bottom: 30px;
     text-transform: uppercase;
+}
+
+/* Footer Section */
+
+.footer-container {
+    background-color: #111010;
+    padding: 60px 0px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h4 {
+    color: #E55473;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-content .white-shop {
+    color: #FFFFFF;
+}
+
+.footer-content p {
+    color: rgba(255, 255, 255, 0.90);
+    line-height: 20px;
+    font-weight: 300;
+    margin: 13px 0px 16px;
+}
+
+.footer-content .copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 300;
+    font-size: 14px;
 }
