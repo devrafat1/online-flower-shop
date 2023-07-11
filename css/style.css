@@ -289,3 +289,38 @@ header {
     margin-right: 10px;
     border-radius: 5px;
 }
+
+/* Flower Order Section */
+
+.flower-order-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 0px;
+}
+
+.flower-order-area{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.flower-order-image {
+    width: 500px;
+}
+
+.flower-order-image img{
+    width: 100%;
+}
+
+.flower-order {
+    text-align: center;
+}
+
+.flower-order h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
