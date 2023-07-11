@@ -181,7 +181,7 @@ header {
     justify-content: space-around;
 }
 
-.sign-up-text{
+.sign-up-text {
     text-align: center;
 }
 
@@ -207,6 +207,44 @@ header {
     width: 250px;
 }
 
-.sign-up-image img{
+.sign-up-image img {
+    width: 100%;
+}
+
+/* Images Gallery Section */
+
+.images-gallery-container {
+    margin-bottom: 50px;
+    padding: 20px 0px;
+}
+
+.images-gallery-container h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.images-gallery-container p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    line-height: 18px;
+    margin: 15px 0px 30px;
+}
+
+.instagram-images-container {
+    display: flex;
+}
+
+.image-item {
+    width: 24%;
+    margin-left: 1%;
+}
+
+.image-item:first-child {
+    margin-left: 0;
+}
+
+.image-item img {
     width: 100%;
 }
