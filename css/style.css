@@ -51,7 +51,6 @@ header {
 
 .header-text-container p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
     font-weight: 400;
     line-height: 25px;
     margin: 20px 0px;
@@ -64,4 +63,66 @@ header {
 .header-img-container img {
     width: 400px;
     height: 500px;
+}
+
+/* Featured Flower Section */
+
+.featured-container {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.featured-container h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.featured-container>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.featured-img-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.featured-img {
+    text-align: center;
+}
+
+.featured-img p {
+    margin: 16px 0;
+    text-decoration: underline;
+    color: #272727;;
+}
+
+.featured-img .featured-img-1 {
+    width: 320px;
+    height: 400px;
+    padding: 30px 40px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-img .featured-img-2 {
+    width: 320px;
+    height: 400px;
+    padding: 30px 40px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-img .featured-img-3 {
+    width: 320px;
+    height: 400px;
+    padding: 20px 30px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
